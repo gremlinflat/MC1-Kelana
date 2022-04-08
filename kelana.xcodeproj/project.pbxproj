@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		277F49A32800157C004F810E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277F49A22800157C004F810E /* HomeViewController.swift */; };
 		BEF8BC3927FF34C500238965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8BC3827FF34C500238965 /* AppDelegate.swift */; };
 		BEF8BC3B27FF34C500238965 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8BC3A27FF34C500238965 /* SceneDelegate.swift */; };
 		BEF8BC3D27FF34C500238965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8BC3C27FF34C500238965 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		277F49A22800157C004F810E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BEF8BC3527FF34C500238965 /* kelana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kelana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF8BC3827FF34C500238965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF8BC3A27FF34C500238965 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		277F499D28000E83004F810E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				277F49A22800157C004F810E /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		BEF8BC2C27FF34C500238965 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		BEF8BC3727FF34C500238965 /* kelana */ = {
 			isa = PBXGroup;
 			children = (
+				277F499D28000E83004F810E /* Home */,
 				BEF8BC3827FF34C500238965 /* AppDelegate.swift */,
 				BEF8BC3A27FF34C500238965 /* SceneDelegate.swift */,
 				BEF8BC3C27FF34C500238965 /* ViewController.swift */,
@@ -141,6 +152,7 @@
 				BEF8BC3D27FF34C500238965 /* ViewController.swift in Sources */,
 				BEF8BC3927FF34C500238965 /* AppDelegate.swift in Sources */,
 				BEF8BC3B27FF34C500238965 /* SceneDelegate.swift in Sources */,
+				277F49A32800157C004F810E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
