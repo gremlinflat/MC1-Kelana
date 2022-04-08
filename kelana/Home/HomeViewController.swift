@@ -8,7 +8,7 @@
 import UIKit
 
 class HomeViewController: UIViewController, UISearchResultsUpdating {
-    @IBOutlet weak var recommendedImages: UIImageView!
+
     
     func updateSearchResults(for searchController: UISearchController) {
         guard let text = searchController.searchBar.text else{

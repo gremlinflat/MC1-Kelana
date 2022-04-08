@@ -33,9 +33,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="BIf-cD-o2d"/>
-                    <connections>
-                        <outlet property="Images" destination="qP1-v8-shP" id="msJ-bW-aUN"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
