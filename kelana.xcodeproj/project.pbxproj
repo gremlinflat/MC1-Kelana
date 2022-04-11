@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE330E5628014B4000E318DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE330E5528014B4000E318DD /* AppDelegate.swift */; };
-		BE330E5828014B4000E318DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE330E5728014B4000E318DD /* SceneDelegate.swift */; };
-		BE330E5A28014B4000E318DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE330E5928014B4000E318DD /* ViewController.swift */; };
-		BE330E5D28014B4000E318DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE330E5B28014B4000E318DD /* Main.storyboard */; };
-		BE330E6028014B4000E318DD /* Kelana.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE330E5E28014B4000E318DD /* Kelana.xcdatamodeld */; };
-		BE330E6228014B4000E318DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE330E6128014B4000E318DD /* Assets.xcassets */; };
-		BE330E6528014B4000E318DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE330E6328014B4000E318DD /* LaunchScreen.storyboard */; };
+		277F49A32800157C004F810E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277F49A22800157C004F810E /* HomeViewController.swift */; };
+		BEF8BC3927FF34C500238965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8BC3827FF34C500238965 /* AppDelegate.swift */; };
+		BEF8BC3B27FF34C500238965 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8BC3A27FF34C500238965 /* SceneDelegate.swift */; };
+		BEF8BC3D27FF34C500238965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8BC3C27FF34C500238965 /* ViewController.swift */; };
+		BEF8BC4027FF34C500238965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF8BC3E27FF34C500238965 /* Main.storyboard */; };
+		BEF8BC4227FF34C600238965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF8BC4127FF34C600238965 /* Assets.xcassets */; };
+		BEF8BC4527FF34C600238965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF8BC4327FF34C600238965 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE330E5228014B4000E318DD /* Kelana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kelana.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE330E5528014B4000E318DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE330E5728014B4000E318DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE330E5928014B4000E318DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE330E5C28014B4000E318DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE330E5F28014B4000E318DD /* Kelana.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kelana.xcdatamodel; sourceTree = "<group>"; };
-		BE330E6128014B4000E318DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BE330E6428014B4000E318DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BE330E6628014B4000E318DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277F49A22800157C004F810E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BEF8BC3527FF34C500238965 /* kelana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kelana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF8BC3827FF34C500238965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEF8BC3A27FF34C500238965 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEF8BC3C27FF34C500238965 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEF8BC3F27FF34C500238965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEF8BC4127FF34C600238965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF8BC4427FF34C600238965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEF8BC4627FF34C600238965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BE330E4F28014B3F00E318DD /* Frameworks */ = {
+		BEF8BC3227FF34C500238965 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +39,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE330E4928014B3F00E318DD = {
+		277F499D28000E83004F810E /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				BE330E5428014B4000E318DD /* Kelana */,
-				BE330E5328014B4000E318DD /* Products */,
+				277F49A22800157C004F810E /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BEF8BC2C27FF34C500238965 = {
+			isa = PBXGroup;
+			children = (
+				BEF8BC3727FF34C500238965 /* kelana */,
+				BEF8BC3627FF34C500238965 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BE330E5328014B4000E318DD /* Products */ = {
+		BEF8BC3627FF34C500238965 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE330E5228014B4000E318DD /* Kelana.app */,
+				BEF8BC3527FF34C500238965 /* kelana.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE330E5428014B4000E318DD /* Kelana */ = {
+		BEF8BC3727FF34C500238965 /* kelana */ = {
 			isa = PBXGroup;
 			children = (
-				BE330E5528014B4000E318DD /* AppDelegate.swift */,
-				BE330E5728014B4000E318DD /* SceneDelegate.swift */,
-				BE330E5928014B4000E318DD /* ViewController.swift */,
-				BE330E5B28014B4000E318DD /* Main.storyboard */,
-				BE330E6128014B4000E318DD /* Assets.xcassets */,
-				BE330E6328014B4000E318DD /* LaunchScreen.storyboard */,
-				BE330E6628014B4000E318DD /* Info.plist */,
-				BE330E5E28014B4000E318DD /* Kelana.xcdatamodeld */,
+				277F499D28000E83004F810E /* Home */,
+				BEF8BC3827FF34C500238965 /* AppDelegate.swift */,
+				BEF8BC3A27FF34C500238965 /* SceneDelegate.swift */,
+				BEF8BC3C27FF34C500238965 /* ViewController.swift */,
+				BEF8BC3E27FF34C500238965 /* Main.storyboard */,
+				BEF8BC4127FF34C600238965 /* Assets.xcassets */,
+				BEF8BC4327FF34C600238965 /* LaunchScreen.storyboard */,
+				BEF8BC4627FF34C600238965 /* Info.plist */,
 			);
-			path = Kelana;
+			path = kelana;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE330E5128014B3F00E318DD /* Kelana */ = {
+		BEF8BC3427FF34C500238965 /* kelana */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE330E6928014B4000E318DD /* Build configuration list for PBXNativeTarget "Kelana" */;
+			buildConfigurationList = BEF8BC4927FF34C600238965 /* Build configuration list for PBXNativeTarget "kelana" */;
 			buildPhases = (
-				BE330E4E28014B3F00E318DD /* Sources */,
-				BE330E4F28014B3F00E318DD /* Frameworks */,
-				BE330E5028014B3F00E318DD /* Resources */,
+				BEF8BC3127FF34C500238965 /* Sources */,
+				BEF8BC3227FF34C500238965 /* Frameworks */,
+				BEF8BC3327FF34C500238965 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Kelana;
-			productName = Kelana;
-			productReference = BE330E5228014B4000E318DD /* Kelana.app */;
+			name = kelana;
+			productName = kelana;
+			productReference = BEF8BC3527FF34C500238965 /* kelana.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BE330E4A28014B3F00E318DD /* Project object */ = {
+		BEF8BC2D27FF34C500238965 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					BE330E5128014B3F00E318DD = {
+					BEF8BC3427FF34C500238965 = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = BE330E4D28014B3F00E318DD /* Build configuration list for PBXProject "Kelana" */;
+			buildConfigurationList = BEF8BC3027FF34C500238965 /* Build configuration list for PBXProject "kelana" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +121,56 @@
 				en,
 				Base,
 			);
-			mainGroup = BE330E4928014B3F00E318DD;
-			productRefGroup = BE330E5328014B4000E318DD /* Products */;
+			mainGroup = BEF8BC2C27FF34C500238965;
+			productRefGroup = BEF8BC3627FF34C500238965 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE330E5128014B3F00E318DD /* Kelana */,
+				BEF8BC3427FF34C500238965 /* kelana */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BE330E5028014B3F00E318DD /* Resources */ = {
+		BEF8BC3327FF34C500238965 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE330E6528014B4000E318DD /* LaunchScreen.storyboard in Resources */,
-				BE330E6228014B4000E318DD /* Assets.xcassets in Resources */,
-				BE330E5D28014B4000E318DD /* Main.storyboard in Resources */,
+				BEF8BC4527FF34C600238965 /* LaunchScreen.storyboard in Resources */,
+				BEF8BC4227FF34C600238965 /* Assets.xcassets in Resources */,
+				BEF8BC4027FF34C500238965 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BE330E4E28014B3F00E318DD /* Sources */ = {
+		BEF8BC3127FF34C500238965 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE330E5A28014B4000E318DD /* ViewController.swift in Sources */,
-				BE330E5628014B4000E318DD /* AppDelegate.swift in Sources */,
-				BE330E5828014B4000E318DD /* SceneDelegate.swift in Sources */,
-				BE330E6028014B4000E318DD /* Kelana.xcdatamodeld in Sources */,
+				BEF8BC3D27FF34C500238965 /* ViewController.swift in Sources */,
+				BEF8BC3927FF34C500238965 /* AppDelegate.swift in Sources */,
+				BEF8BC3B27FF34C500238965 /* SceneDelegate.swift in Sources */,
+				277F49A32800157C004F810E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BE330E5B28014B4000E318DD /* Main.storyboard */ = {
+		BEF8BC3E27FF34C500238965 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BE330E5C28014B4000E318DD /* Base */,
+				BEF8BC3F27FF34C500238965 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BE330E6328014B4000E318DD /* LaunchScreen.storyboard */ = {
+		BEF8BC4327FF34C600238965 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BE330E6428014B4000E318DD /* Base */,
+				BEF8BC4427FF34C600238965 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +178,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BE330E6728014B4000E318DD /* Debug */ = {
+		BEF8BC4727FF34C600238965 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		BE330E6828014B4000E318DD /* Release */ = {
+		BEF8BC4827FF34C600238965 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,27 +292,28 @@
 			};
 			name = Release;
 		};
-		BE330E6A28014B4000E318DD /* Debug */ = {
+		BEF8BC4A27FF34C600238965 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5KR93355T7;
+				DEVELOPMENT_TEAM = YSG9AW6NGQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Kelana/Info.plist;
+				INFOPLIST_FILE = kelana/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ada.gop.mushafeer.Kelana;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.gop.mushafeer.kelana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,27 +321,28 @@
 			};
 			name = Debug;
 		};
-		BE330E6B28014B4000E318DD /* Release */ = {
+		BEF8BC4B27FF34C600238965 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5KR93355T7;
+				DEVELOPMENT_TEAM = YSG9AW6NGQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Kelana/Info.plist;
+				INFOPLIST_FILE = kelana/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ada.gop.mushafeer.Kelana;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.gop.mushafeer.kelana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,38 +353,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE330E4D28014B3F00E318DD /* Build configuration list for PBXProject "Kelana" */ = {
+		BEF8BC3027FF34C500238965 /* Build configuration list for PBXProject "kelana" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE330E6728014B4000E318DD /* Debug */,
-				BE330E6828014B4000E318DD /* Release */,
+				BEF8BC4727FF34C600238965 /* Debug */,
+				BEF8BC4827FF34C600238965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE330E6928014B4000E318DD /* Build configuration list for PBXNativeTarget "Kelana" */ = {
+		BEF8BC4927FF34C600238965 /* Build configuration list for PBXNativeTarget "kelana" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE330E6A28014B4000E318DD /* Debug */,
-				BE330E6B28014B4000E318DD /* Release */,
+				BEF8BC4A27FF34C600238965 /* Debug */,
+				BEF8BC4B27FF34C600238965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BE330E5E28014B4000E318DD /* Kelana.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BE330E5F28014B4000E318DD /* Kelana.xcdatamodel */,
-			);
-			currentVersion = BE330E5F28014B4000E318DD /* Kelana.xcdatamodel */;
-			path = Kelana.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = BE330E4A28014B3F00E318DD /* Project object */;
+	rootObject = BEF8BC2D27FF34C500238965 /* Project object */;
 }

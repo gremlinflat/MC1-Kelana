@@ -1,13 +1,14 @@
 //
 //  ViewController.swift
-//  Kelana
+//  kelana
 //
-//  Created by Fahri Novaldi on 09/04/22.
+//  Created by Fahri Novaldi on 07/04/22.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,4 +17,4 @@ class ViewController: UIViewController {
 
 
 }
-
+ 
