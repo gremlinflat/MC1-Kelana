@@ -13,6 +13,9 @@ struct UserProfile{
     var bookmark: [BookmarkItem]
     var lastView: [Destination]
     
-    
+    mutating func updateLastView(destination: Destination){
+        lastView.popLast()
+        
+    }
 }
 
