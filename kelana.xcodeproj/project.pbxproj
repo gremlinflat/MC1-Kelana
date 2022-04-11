@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		277F49A32800157C004F810E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277F49A22800157C004F810E /* HomeViewController.swift */; };
+		BE64A13C2803FEFD00299FC4 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64A13B2803FEFD00299FC4 /* Destination.swift */; };
+		BE64A13E2804037C00299FC4 /* BookmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64A13D2804037C00299FC4 /* BookmarkItem.swift */; };
+		BE64A1402804041A00299FC4 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64A13F2804041A00299FC4 /* UserProfile.swift */; };
 		BEF8BC3927FF34C500238965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8BC3827FF34C500238965 /* AppDelegate.swift */; };
 		BEF8BC3B27FF34C500238965 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8BC3A27FF34C500238965 /* SceneDelegate.swift */; };
 		BEF8BC3D27FF34C500238965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8BC3C27FF34C500238965 /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		277F49A22800157C004F810E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BE64A13B2803FEFD00299FC4 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Destination.swift; path = Kelana/Model/Destination.swift; sourceTree = SOURCE_ROOT; };
+		BE64A13D2804037C00299FC4 /* BookmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookmarkItem.swift; path = Kelana/Model/BookmarkItem.swift; sourceTree = SOURCE_ROOT; };
+		BE64A13F2804041A00299FC4 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserProfile.swift; path = Kelana/Model/UserProfile.swift; sourceTree = SOURCE_ROOT; };
 		BEF8BC3527FF34C500238965 /* kelana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kelana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF8BC3827FF34C500238965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF8BC3A27FF34C500238965 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +53,16 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		BE64A13A2803FE8300299FC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE64A13B2803FEFD00299FC4 /* Destination.swift */,
+				BE64A13D2804037C00299FC4 /* BookmarkItem.swift */,
+				BE64A13F2804041A00299FC4 /* UserProfile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BEF8BC2C27FF34C500238965 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +82,7 @@
 		BEF8BC3727FF34C500238965 /* kelana */ = {
 			isa = PBXGroup;
 			children = (
+				BE64A13A2803FE8300299FC4 /* Model */,
 				277F499D28000E83004F810E /* Home */,
 				BEF8BC3827FF34C500238965 /* AppDelegate.swift */,
 				BEF8BC3A27FF34C500238965 /* SceneDelegate.swift */,
@@ -113,7 +130,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BEF8BC3027FF34C500238965 /* Build configuration list for PBXProject "kelana" */;
+			buildConfigurationList = BEF8BC3027FF34C500238965 /* Build configuration list for PBXProject "Kelana" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,6 +168,9 @@
 			files = (
 				BEF8BC3D27FF34C500238965 /* ViewController.swift in Sources */,
 				BEF8BC3927FF34C500238965 /* AppDelegate.swift in Sources */,
+				BE64A1402804041A00299FC4 /* UserProfile.swift in Sources */,
+				BE64A13E2804037C00299FC4 /* BookmarkItem.swift in Sources */,
+				BE64A13C2803FEFD00299FC4 /* Destination.swift in Sources */,
 				BEF8BC3B27FF34C500238965 /* SceneDelegate.swift in Sources */,
 				277F49A32800157C004F810E /* HomeViewController.swift in Sources */,
 			);
@@ -353,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEF8BC3027FF34C500238965 /* Build configuration list for PBXProject "kelana" */ = {
+		BEF8BC3027FF34C500238965 /* Build configuration list for PBXProject "Kelana" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEF8BC4727FF34C600238965 /* Debug */,
