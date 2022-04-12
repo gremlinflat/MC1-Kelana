@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		277F49A32800157C004F810E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277F49A22800157C004F810E /* HomeViewController.swift */; };
+		2A47174028056EE8007A1076 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47173F28056EE8007A1076 /* LoginViewController.swift */; };
 		2A853B8C2805533F00DBCB4D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A853B8B2805533F00DBCB4D /* SearchViewController.swift */; };
 		2A853B8E28055AA200DBCB4D /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A853B8D28055AA200DBCB4D /* SearchTableViewCell.swift */; };
 		BE64A13C2803FEFD00299FC4 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64A13B2803FEFD00299FC4 /* Destination.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		277F49A22800157C004F810E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2A47173F28056EE8007A1076 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Kelana/Login/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
 		2A853B8B2805533F00DBCB4D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = Kelana/Search/SearchViewController.swift; sourceTree = SOURCE_ROOT; };
 		2A853B8D28055AA200DBCB4D /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchTableViewCell.swift; path = Kelana/Search/SearchTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		BE64A13B2803FEFD00299FC4 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Destination.swift; path = Kelana/Model/Destination.swift; sourceTree = SOURCE_ROOT; };
@@ -70,6 +72,14 @@
 			path = Search;
 			sourceTree = "<group>";
 		};
+		2A853B9128056A7B00DBCB4D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2A47173F28056EE8007A1076 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		BE64A13A2803FE8300299FC4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 				BE64A13A2803FE8300299FC4 /* Model */,
 				277F499D28000E83004F810E /* Home */,
 				2A30C18728054A3E008D2194 /* Search */,
+				2A853B9128056A7B00DBCB4D /* Login */,
 				BEF8BC3827FF34C500238965 /* AppDelegate.swift */,
 				BEF8BC3A27FF34C500238965 /* SceneDelegate.swift */,
 				BEF8BC3C27FF34C500238965 /* ViewController.swift */,
@@ -186,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A47174028056EE8007A1076 /* LoginViewController.swift in Sources */,
 				2A853B8C2805533F00DBCB4D /* SearchViewController.swift in Sources */,
 				BEF8BC3D27FF34C500238965 /* ViewController.swift in Sources */,
 				BEF8BC3927FF34C500238965 /* AppDelegate.swift in Sources */,
