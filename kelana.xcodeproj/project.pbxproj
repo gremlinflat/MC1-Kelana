@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		277F49A32800157C004F810E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277F49A22800157C004F810E /* HomeViewController.swift */; };
-		2A30C18628054A30008D2194 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A30C18528054A30008D2194 /* SearchViewController.swift */; };
+		2A853B8C2805533F00DBCB4D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A853B8B2805533F00DBCB4D /* SearchViewController.swift */; };
+		2A853B8E28055AA200DBCB4D /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A853B8D28055AA200DBCB4D /* SearchTableViewCell.swift */; };
 		BE64A13C2803FEFD00299FC4 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64A13B2803FEFD00299FC4 /* Destination.swift */; };
 		BE64A13E2804037C00299FC4 /* BookmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64A13D2804037C00299FC4 /* BookmarkItem.swift */; };
 		BE64A1402804041A00299FC4 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64A13F2804041A00299FC4 /* UserProfile.swift */; };
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		277F49A22800157C004F810E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		2A30C18528054A30008D2194 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2A853B8B2805533F00DBCB4D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = Kelana/Search/SearchViewController.swift; sourceTree = SOURCE_ROOT; };
+		2A853B8D28055AA200DBCB4D /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchTableViewCell.swift; path = Kelana/Search/SearchTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		BE64A13B2803FEFD00299FC4 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Destination.swift; path = Kelana/Model/Destination.swift; sourceTree = SOURCE_ROOT; };
 		BE64A13D2804037C00299FC4 /* BookmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookmarkItem.swift; path = Kelana/Model/BookmarkItem.swift; sourceTree = SOURCE_ROOT; };
 		BE64A13F2804041A00299FC4 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserProfile.swift; path = Kelana/Model/UserProfile.swift; sourceTree = SOURCE_ROOT; };
@@ -62,7 +64,8 @@
 		2A30C18728054A3E008D2194 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				2A30C18528054A30008D2194 /* SearchViewController.swift */,
+				2A853B8B2805533F00DBCB4D /* SearchViewController.swift */,
+				2A853B8D28055AA200DBCB4D /* SearchTableViewCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -100,8 +103,8 @@
 			children = (
 				BE64A13A2803FE8300299FC4 /* Model */,
 				277F499D28000E83004F810E /* Home */,
-				BEF8BC3827FF34C500238965 /* AppDelegate.swift */,
 				2A30C18728054A3E008D2194 /* Search */,
+				BEF8BC3827FF34C500238965 /* AppDelegate.swift */,
 				BEF8BC3A27FF34C500238965 /* SceneDelegate.swift */,
 				BEF8BC3C27FF34C500238965 /* ViewController.swift */,
 				BEF8BC3E27FF34C500238965 /* Main.storyboard */,
@@ -183,10 +186,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A30C18628054A30008D2194 /* SearchViewController.swift in Sources */,
+				2A853B8C2805533F00DBCB4D /* SearchViewController.swift in Sources */,
 				BEF8BC3D27FF34C500238965 /* ViewController.swift in Sources */,
 				BEF8BC3927FF34C500238965 /* AppDelegate.swift in Sources */,
 				BE64A1402804041A00299FC4 /* UserProfile.swift in Sources */,
+				2A853B8E28055AA200DBCB4D /* SearchTableViewCell.swift in Sources */,
 				BE64A13E2804037C00299FC4 /* BookmarkItem.swift in Sources */,
 				BE64A14428040EC400299FC4 /* Attraction.swift in Sources */,
 				BE64A13C2803FEFD00299FC4 /* Destination.swift in Sources */,
