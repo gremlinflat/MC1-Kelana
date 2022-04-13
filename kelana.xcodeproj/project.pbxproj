@@ -15,6 +15,7 @@
 		2AEBD3E92806B24D0003EF98 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBD3E52806B24D0003EF98 /* HomeViewController.swift */; };
 		2AEBD3EA2806B24D0003EF98 /* RecommendedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBD3E72806B24D0003EF98 /* RecommendedCollectionViewCell.swift */; };
 		2AEBD3EC2806B4CE0003EF98 /* EventDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBD3EB2806B4CE0003EF98 /* EventDummy.swift */; };
+		2AEBD3EE2806B7510003EF98 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBD3ED2806B7510003EF98 /* HomepageViewController.swift */; };
 		BE64A13C2803FEFD00299FC4 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64A13B2803FEFD00299FC4 /* Destination.swift */; };
 		BE64A13E2804037C00299FC4 /* BookmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64A13D2804037C00299FC4 /* BookmarkItem.swift */; };
 		BE64A1402804041A00299FC4 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64A13F2804041A00299FC4 /* UserProfile.swift */; };
@@ -37,6 +38,7 @@
 		2AEBD3E52806B24D0003EF98 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2AEBD3E72806B24D0003EF98 /* RecommendedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedCollectionViewCell.swift; sourceTree = "<group>"; };
 		2AEBD3EB2806B4CE0003EF98 /* EventDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventDummy.swift; path = Kelana/Model/EventDummy.swift; sourceTree = SOURCE_ROOT; };
+		2AEBD3ED2806B7510003EF98 /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomepageViewController.swift; path = Kelana/Home/HomepageViewController.swift; sourceTree = SOURCE_ROOT; };
 		BE64A13B2803FEFD00299FC4 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Destination.swift; path = Kelana/Model/Destination.swift; sourceTree = SOURCE_ROOT; };
 		BE64A13D2804037C00299FC4 /* BookmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookmarkItem.swift; path = Kelana/Model/BookmarkItem.swift; sourceTree = SOURCE_ROOT; };
 		BE64A13F2804041A00299FC4 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserProfile.swift; path = Kelana/Model/UserProfile.swift; sourceTree = SOURCE_ROOT; };
@@ -69,6 +71,7 @@
 				2AEBD3E42806B24C0003EF98 /* EventTableViewCell.swift */,
 				2AEBD3E52806B24D0003EF98 /* HomeViewController.swift */,
 				2AEBD3E72806B24D0003EF98 /* RecommendedCollectionViewCell.swift */,
+				2AEBD3ED2806B7510003EF98 /* HomepageViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				2A853B8C2805533F00DBCB4D /* SearchViewController.swift in Sources */,
 				BEF8BC3D27FF34C500238965 /* ViewController.swift in Sources */,
 				BEF8BC3927FF34C500238965 /* AppDelegate.swift in Sources */,
+				2AEBD3EE2806B7510003EF98 /* HomepageViewController.swift in Sources */,
 				2AEBD3E82806B24D0003EF98 /* EventTableViewCell.swift in Sources */,
 				2AEBD3E92806B24D0003EF98 /* HomeViewController.swift in Sources */,
 				2AEBD3EA2806B24D0003EF98 /* RecommendedCollectionViewCell.swift in Sources */,
