@@ -80,9 +80,6 @@ class LoginViewController: UIViewController {
             print("isSelected")
             interest?.append("Nature")
             print(interest!)
-//            userDefaults.set(inputName!.text, forKey: "name")
-//            let loggedUsername = UserDefaults.standard.string(forKey: "name")
-//            print(loggedUsername!)
         }
         else {
             isSelected = true
@@ -184,22 +181,22 @@ class LoginViewController: UIViewController {
         let entity = NSEntityDescription.entity(forEntityName: "User", in: context)
         let newUser = NSManagedObject(entity: entity!, insertInto: context)
         
-//        newUser.setValue(name, forKey: "name")
-//        newUser.setValue(loc, forKey: "location")
-//        newUser.setValue(interest![0], forKey: "interestA")
-//        newUser.setValue(interest![1], forKey: "interestB")
-//        newUser.setValue(interest![2], forKey: "interestC")
-//        newUser.setValue(interest![3], forKey: "interestD")
-//
-//        do {
-//            try context.save()
-//        } catch  {
-//
-//        }
+        newUser.setValue(name, forKey: "name")
+        newUser.setValue(loc, forKey: "location")
+        newUser.setValue(interest![0], forKey: "interestA")
+        newUser.setValue(interest![1], forKey: "interestB")
+        newUser.setValue(interest![2], forKey: "interestC")
+        newUser.setValue(interest![3], forKey: "interestD")
+
+        do {
+            try context.save()
+            userDefaults.set(name, forKey: "name")
+        } catch  {
+
+        }
         
-//        userDefaults.set(name, forKey: "name")
-//        let loggedUsername = UserDefaults.standard.string(forKey: "name")
-//        print(loggedUsername!)
+        let loggedUsername = UserDefaults.standard.string(forKey: "name")
+        print(loggedUsername!)
     }
 }
     
