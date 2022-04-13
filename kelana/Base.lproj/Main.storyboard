@@ -13,7 +13,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="kelana" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="HomeViewController" customModule="kelana" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -512,21 +512,33 @@
                                 <rect key="frame" x="30" y="426.66666666666669" width="68" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Nature"/>
+                                <connections>
+                                    <action selector="tagNature:" destination="CnT-gg-kOt" eventType="touchUpInside" id="kXA-PS-Rf6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYZ-UD-GvK">
                                 <rect key="frame" x="108" y="426.66666666666669" width="85" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Historical"/>
+                                <connections>
+                                    <action selector="tagHistorical:" destination="CnT-gg-kOt" eventType="touchUpInside" id="ZUH-Sn-x6J"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6V2-cd-K4V">
                                 <rect key="frame" x="203" y="426.66666666666669" width="82" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Camping"/>
+                                <connections>
+                                    <action selector="tagCamping:" destination="CnT-gg-kOt" eventType="touchUpInside" id="IpI-Na-PF5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uev-IY-eT1">
                                 <rect key="frame" x="30" y="508.66666666666674" width="86" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Shopping"/>
+                                <connections>
+                                    <action selector="tagShop:" destination="CnT-gg-kOt" eventType="touchUpInside" id="Rul-OP-kid"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irf-ZC-wTA">
                                 <rect key="frame" x="30" y="731.66666666666663" width="330" height="31"/>
@@ -537,16 +549,25 @@
                                 <rect key="frame" x="30" y="467.66666666666669" width="107" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Photography"/>
+                                <connections>
+                                    <action selector="tagPhoto:" destination="CnT-gg-kOt" eventType="touchUpInside" id="sB3-kB-MR1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dX3-6w-3QQ">
                                 <rect key="frame" x="147" y="467.66666666666669" width="97" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Exploration"/>
+                                <connections>
+                                    <action selector="tagExplore:" destination="CnT-gg-kOt" eventType="touchUpInside" id="xqD-ac-mxw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EP5-sk-5s4">
                                 <rect key="frame" x="126" y="508.66666666666674" width="100" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Sightseeing"/>
+                                <connections>
+                                    <action selector="tagSight:" destination="CnT-gg-kOt" eventType="touchUpInside" id="RLe-1o-aej"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1AG-Su-0vr"/>
